@@ -290,6 +290,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: center top;
       transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
@@ -491,30 +492,36 @@
     /* Static Hero Lead Layout */
     .chapter-hero-lead {
       display: grid;
-      grid-template-columns: 7fr 5fr;
-      gap: 48px;
+      grid-template-columns: minmax(320px, 520px) 1fr;
+      gap: 52px;
       align-items: center;
       background: var(--bg-surface);
       border: 1px solid var(--border-subtle);
       border-radius: var(--radius-lg);
-      padding: 36px;
+      padding: 40px;
       margin-bottom: 64px;
       box-shadow: var(--shadow-card);
     }
 
     .hero-lead-media {
       width: 100%;
-      aspect-ratio: 4 / 5;
-      max-height: 680px;
+      max-width: 520px;
+      margin: 0 auto;
       border-radius: var(--radius-md);
       overflow: hidden;
-      background: #000;
+      background: #050507;
+      box-shadow: 0 16px 44px rgba(0, 0, 0, 0.55);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .hero-lead-media img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: auto;
+      max-height: 760px;
+      display: block;
+      object-fit: contain;
     }
 
     .hero-lead-copy {
@@ -566,6 +573,10 @@
         grid-template-columns: 1fr;
         padding: 24px;
         gap: 28px;
+      }
+      .hero-lead-media {
+        max-width: 480px;
+        margin: 0 auto;
       }
     }
 
@@ -661,7 +672,8 @@
       inset: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      background: #050507;
       opacity: 0;
       transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s ease;
       transform: scale(0.985);
@@ -1973,12 +1985,12 @@
             role: "Ergonomic Usability / Wrist Jewelry Proof"
           },
           {
-            code: "Piece C2-04 · Architectural Still Life",
+            code: "Piece C2-04 · Architectural Sill Still Life",
             title: "The Sill",
-            narrative: "Resting on a polished black marble window ledge overlooking the rainy opera square alongside mother-of-pearl opera glasses. The liquid gunmetal reflects the exterior plaza lights in its convex dome.",
-            lens: "100mm Macro · f/4.0",
-            lighting: "Cool Streetlight 5000K & Warm Interior Moldings",
-            clasp: "Flawless Electroplated Shell",
+            narrative: "Resting on a polished marble sill overlooking the opera foyer. The liquid gunmetal shell reflects chandeliers and evening gala guests with photographic clarity, the wheat chain draping gracefully onto the marble from its exclusive left anchor.",
+            lens: "100mm Macro · f/2.8",
+            lighting: "Ambient Opera Chandeliers & Colonnade Glow",
+            clasp: "Exclusive Left Anchor · Smooth Unpierced Right",
             role: "Value Anchoring / Design Credibility"
           },
           {
