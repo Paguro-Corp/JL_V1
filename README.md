@@ -6,7 +6,6 @@
 **Creative Direction & Brand Strategy:** Paguro Creative / Pagurai  
 **Creative Director & Partner:** Joseph  
 **Content Creator & Developer:** Danna Olarte ([Portfolio](https://paguro-corp.github.io/Portfolio_Danna/))  
-**Technical Execution & Magnific REST API Integration:** Google Antigravity  
 **Client / Leadership:** Jeffrey Levinson (Founder & CEO)  
 **Date:** October 28, 2026  
 **GitHub Repository:** [https://github.com/Paguro-Corp/JL_V1.git](https://github.com/Paguro-Corp/JL_V1.git)
@@ -90,5 +89,5 @@ To deploy directly to **GitHub Pages**:
 4. The site will be live within 2 minutes at: `https://paguro-corp.github.io/JL_V1/`.
 
 ---
-*Created by Paguro Creative / Pagurai · Creative Director: Joseph · Content Creator & Developer: Danna Olarte ([Portfolio](https://paguro-corp.github.io/Portfolio_Danna/)) · Technical Execution: Google Antigravity.*
+*Created by Paguro Creative / Pagurai · Creative Director: Joseph · Content Creator & Developer: Danna Olarte ([Portfolio](https://paguro-corp.github.io/Portfolio_Danna/)).*
 
